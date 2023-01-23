@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leaderboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="index.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="mainupper">
+        <h1>30 Days Of JavaScript Challange Leaderboard</h1>
+      </div>
+      <div class="mainmiddle">
+        <div class="mainmiddleupper">
+          <input
+            class="inputdata"
+            type="text"
+            name=""
+            id="fname"
+            placeholder="First Name"
+          />
+          <input
+            class="inputdata"
+            type="text"
+            name=""
+            id="lname"
+            placeholder="Last Name"
+          />
+          <input
+            class="inputdata"
+            type="text"
+            name=""
+            id="cname"
+            placeholder="Country"
+          />
+          <input
+            class="inputdata"
+            type="number"
+            name=""
+            id="score"
+            placeholder="Player Score"
+          />
+          <button class="inputdata colordiv" onclick="list()">Add</button>
+        </div>
+        <div class="mainmiddlelower">
+          <h3 class="alert" id="alert"></h3>
+        </div>
+      </div>
+      <div id="mainlower" class="mainlower"></div>
+    </div>
+  </body>
+</html>
